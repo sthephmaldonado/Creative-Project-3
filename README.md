@@ -10,11 +10,11 @@ Unfortunetly, I couldnt upload any audio file to my p5.js browser editor, I had 
 
 Instructions for running the project
 
-1.Open Danne Woo sketch file on this link: https://editor.p5js.org/dannewoo/sketches/u3qoypo-M
-2.Delete the code
-3.Copy & Paste the code inside Creative_project_3.js (https://github.com/sthephmaldonado/Creative-Project-3/blob/main/Creative_Project_3.js)
-4.Run the code
-5.Enable mic
-6.Enjoy the craziness!
+1. Open Danne Woo sketch file on this link: https://editor.p5js.org/dannewoo/sketches/u3qoypo-M
+2. Delete the code
+3. Copy & Paste the code inside Creative_project_3.js (https://github.com/sthephmaldonado/Creative-Project-3/blob/main/Creative_Project_3.js)
+4. Run the code
+5. Enable mic
+6. Enjoy the craziness!
 
 # Artist Statement
