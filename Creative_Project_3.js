@@ -1,6 +1,5 @@
-
 var mySound, fft;
-var osc, fft;
+var osc, fft;//oscillator 
 var mic, fft;//adding mic 
 
 function preload() {
@@ -10,10 +9,10 @@ function preload() {
 function setup() {
   createCanvas(400, 400);
   background(0);
-  fft = new p5.FFT();
+  fft = new p5.FFT(); //define fft analysis on the ocs
   fft.setInput(mic);
-  osc = new p5.Oscillator();
-  osc.start();
+  osc = new p5.Oscillator();//define osc 
+  osc.start();//start osc 
   mic = new p5.AudioIn();
   mic.start();
   mySound.setVolume(0.5);
@@ -28,13 +27,13 @@ function draw() {
   //shape of waves
   var waveform = fft.waveform();
   stroke(255);
-  strokeWeight(5);
+  strokeWeight(5);//thick 
   noFill();
-  beginShape();
-  for (var i = 0; i < waveform.length; i++) {
+  beginShape(); //vertex points to create the wave form
+  for (var i = 0; i < waveform.length; i++) { //loop
     var x = map(i, 0, waveform.length, 0, width);
-    var y = map(waveform[i], -1, 1, 0, height);
-    vertex(x, y);
+    var y = map(waveform[i], -1, 1, 0, height);//data we getting in wave form
+    vertex(x, y); 
   }
   endShape();
   
@@ -49,10 +48,10 @@ function draw() {
     rect(x, 0, width/ fftLin.length, h);
     
   //waves frequency  
-  var modFreq = map(mouseX, 0, width, 20, 1000); //sound waves at lower frequency 
+  var modFreq = map(mouseX, 0, width, 20, 900);
   var modAmp = map(mouseY, 0, height, 0, 1);
-  osc.freq(modFreq);
-  osc.amp(modAmp);
+  osc.freq(modFreq);// apply frequency to the osc
+  osc.amp(modAmp);// apply amplitude to the osc 
     
   
   mic.connect();
