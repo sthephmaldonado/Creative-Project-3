@@ -18,6 +18,8 @@ Instructions for running the project
 5. Enable mic
 6. Enjoy the craziness!
 
+# Video Link 
+
 # Artist Statement
 
 I found Patatap p5 Template by Atsushi Tadokoro (https://openprocessing.org/sketch/736782/) and was really interested on it. I think the Visualizations of waves and also the FFT analysis is a good start to work later on and make a piece like Atsushi. With a better visualization and better code I can make my project to work with the keyboard instead of the cursor. I liked the craziness and outcome of the project. 
