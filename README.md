@@ -22,6 +22,9 @@ Instructions for running the project
 
 https://drive.google.com/file/d/1kcGS8xS8C_u9xSyYz8ky02xc6OvbQl9E/view?usp=sharing
 
+# Github page 
+https://sthephmaldonado.github.io/
+
 # Artist Statement
 
 I found Patatap p5 Template by Atsushi Tadokoro (https://openprocessing.org/sketch/736782/) and was really interested on it. I think the Visualizations of waves and also the FFT analysis is a good start to work later on and make a piece like Atsushi. With a better visualization and better code I can make my project to work with the keyboard instead of the cursor. I liked the craziness and outcome of the project. 
